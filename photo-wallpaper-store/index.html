@@ -21,9 +21,8 @@
         <p class="number">044 278 21 00</p>
       </div>
       <div type="button" class="email-bt">
-        <div class="text-call">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span>Обратный звонок</span>
+        <div type="button" class="click-button">
+          <button class="callback-button">Обратный звонок</button>
         </div>
       </div>
     </header>
@@ -77,35 +76,53 @@
         </div>
         <div class="slideshow-container">
           <div class="mySlides fade">
-            <div class="numbertext">1/4</div>
-            <img src="./img-fonds/for-the-hall.jpg" style="width:100%" alt="для зала">
-            <div class="text">Text</div>
+            <img
+              src="./img-fonds/for-the-hall.png"
+              width="1900px"
+              height="800px"
+              alt="фотообои для зала"
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="./img-fonds/for-the-living-room.png"
+              width="1900px"
+              height="800px"
+              alt="фотообои для гостиной"
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="./img-fonds/for-kitchen.png"
+              width="1900px"
+              height="800px"
+              alt="фотообои для кухни"
+            />
           </div>
           <div class="mySlides fade">
-            <div class="numbertext">2/4</div>
-            <img src="./img-fonds/for-the-living-room.jpg" style="width:100%" alt="для гостиной">
-            <div class="text">Text</div>
+            <img
+              src="./img-fonds/for-the-bedroom.png"
+              swidth="1900px"
+              height="800px"
+              alt="фотообои для спальни"
+            />
           </div>
-          <div class="mySlides fade">
-            <div class="numbertext">3/4</div>
-            <img src="./img-fonds/for-kitchen.jpg" style="width:100%" alt="для кухни">
-            <div class="text">Text</div>
-          </div>
-          <div class="mySlides fade">
-            <div class="numbertext">4/4</div>
-            <img src="./img-fonds/for-the-bedroom.jpg" style="width:100%" alt="для спальни">
-            <div class="text">Text</div>
-          </div>
-          <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-          <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <br>
+        <br />
+
+        <!-- The dots/circles -->
         <div style="text-align: center;">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-      </div>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
         <ul class="market-service">
           <li class="market-card">
             <img
