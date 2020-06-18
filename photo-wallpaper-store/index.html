@@ -11,19 +11,19 @@
       <div class="container">
         <div class="allheader">
           <div class="logoElement">
-          <div class="logo">
-            <a class="logo-text" href="#">logo</a>
+            <div class="logo">
+              <a class="logo-text" href="#">logo</a>
+            </div>
+            <div class="logo-information">
+              <p class="logotext-info">
+                фабрика фотообоев в киеве<br />изготовление фотообоев
+              </p>
+            </div>
           </div>
-          <div class="logo-information">
-            <p class="logotext-info">
-              фабрика фотообоев в киеве<br>изготовление фотообоев
-            </p>
-          </div>
-        </div>
           <div class="callInfo">
-          <div class="number-info">
-            <p class="number">044 278 21 00</p>
-          </div>
+            <div class="number-info">
+              <p class="number">044 278 21 00</p>
+            </div>
             <div type="button" class="click-button">
               <button class="callback-button">Обратный звонок</button>
             </div>
@@ -32,38 +32,36 @@
       </div>
       <div class="navHover">
         <div class="container">
-        <nav class="navigation">
-          <ul class="header__list">
-            <li class="header__list-item">
-              <a class="header__list-link" href="#">главная</a>
-            </li>
-            <li class="header__list-item">
-              <a class="header__list-link" href="#">для детской</a>
-            </li>
-            <li class="header__list-item">
-              <a class="header__list-link" href="#">для спальни</a>
-            </li>
-            <li class="header__list-item">
-              <a class="header__list-link" href="#">для кухни</a>
-            </li>
-            <li class="header__list-item">
-              <a class="header__list-link" href="#">контакты</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <nav class="navigation">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">главная</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">для детской</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">для спальни</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">для кухни</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main class="main">
       <div class="slideshow-container">
-        <h1 class="main-title">
-          <a href="#">фотообои</a>
-        </h1>
-        <h2 class="text-information">более 6000 идей фотообоев для гостиной</h2>
+        <h1 class="main-title">фотообои</h1>
+        <h2 class="text-information">более 6000 идей фотообоев<br/> для гостиной</h2>
         <div class="button-watch">
           <button class="button__watch-ideas">смотреть идеи</button>
         </div>
-        <div class="slideshow-container">
+        
           <div class="mySlides fade">
             <img
               src="./img-fonds/for-the-hall.png"
@@ -71,7 +69,9 @@
               height="800px"
               alt="фотообои для зала"
             />
-            <a class="main__list-link" href="#">Для зала</a>
+            <p class="main__list-item">
+              <a class="main__list-link" href="#">Для зала</a>
+          </p>
             <p class="main-price__subtitle">от 50 $/м²</p>
           </div>
 
@@ -82,7 +82,9 @@
               height="800px"
               alt="фотообои для гостиной"
             />
-            <a class="main__list-link" href="#">Для гостиной</a>
+            <p class="main__list-item">
+              <a class="main__list-link" href="#">Для гостиной</a>
+            </p>
             <p class="main-price__subtitle">от 68 $/м²</p>
           </div>
 
@@ -93,7 +95,9 @@
               height="800px"
               alt="фотообои для кухни"
             />
-            <a class="main__list-link" href="#">Для кухни</a>
+            <p class="main__list-item">
+              <a class="main__list-link" href="#">Для кухни</a>
+            </p>
             <p class="main-price__subtitle">от 82 $/м²</p>
           </div>
           <div class="mySlides fade">
@@ -103,24 +107,29 @@
               height="800px"
               alt="фотообои для спальни"
             />
-            <a class="main__list-link" href="#">Для спальни</a>
+            <p class="main__list-item">
+              <a class="main__list-link" href="#">Для спальни</a>
+            </p>
             <p class="main-price__subtitle">от 79 $/м²</p>
           </div>
 
           <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
         </div>
-        <br />
 
         <!-- The dots/circles -->
-        <div style="text-align: center;">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="container">
+          <div class="dotElements">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
         </div>
-      </div>
+    
       <div class="container">
         <ul class="market-service">
           <li class="market-card">
