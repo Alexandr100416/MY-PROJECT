@@ -3,6 +3,7 @@
   justify-content: space-between;
 }
 .header__list {
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
@@ -21,10 +22,9 @@
 .main-price__subtitle {
   position: absolute;
 }
-
 .text-information {
   font-size: 30px;
-  bottom: 200px;
+  top: 300px;
   left: 200px;
   color: #fff;
 }
@@ -34,7 +34,7 @@
   height: 75px;
   font-weight: bold;
   font-size: 50px;
-  bottom: 300px;
+  top: 210px;
   left: 200px;
   background-color: lavender;
 }
@@ -44,8 +44,8 @@
 .main-price__subtitle {
   font-weight: bold;
   font-size: 50px;
-  bottom: 300px;
-  left: 500px;
+  top: 210px;
+  left: 600px;
   background-color: lawngreen;
   color: #fff;
 }
@@ -71,9 +71,12 @@
   font-size: 15px;
 }
 .header__list-item {
-  padding-top: 11px;
-  width: 140px;
+  margin-top: 5px;
+  width: 270px;
+  height: 25px;
   text-align: center;
+  border-left: 2px solid #bbb;
+  padding: 1px 0px 1px 0px;
 }
 .callInfo {
   width: 380px;
@@ -198,20 +201,9 @@ ol {
 * {
   box-sizing: border-box;
 }
-
-/* Slideshow container */
-/* .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-} */
-
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
-
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -230,21 +222,16 @@ ol {
   top: 500px;
   left: 430px;
 }
-/* Position the "next button" to the right */
 .prev {
   left: 350px;
 }
 .next {
   left: 550px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -259,18 +246,13 @@ ol {
 .active,
 .dot:hover {
   background-color: #fff;
-
-  /* border: 3px solid #ffffff; */
 }
-
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
@@ -279,7 +261,6 @@ ol {
     opacity: 1;
   }
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -288,7 +269,6 @@ ol {
     opacity: 1;
   }
 }
-
 .main-title::after {
   content: "";
   width: 0;
@@ -311,6 +291,7 @@ ol {
   width: 0;
   height: 0;
   border-bottom: 75px solid transparent;
+  right: -35px;
   border-left: 35px solid lavender;
   position: absolute;
 }
@@ -323,7 +304,6 @@ ol {
   border-right: 35px solid lavender;
   position: absolute;
 }
-
 .main-price__subtitle::after {
   content: "";
   width: 0;
@@ -351,9 +331,8 @@ ol {
   position: absolute;
   top: 225px;
   left: 220px;
-  
 }
-.fade::before{
+.fade::before {
   display: block;
   content: "";
   width: 200px;
@@ -363,6 +342,11 @@ ol {
   position: absolute;
   top: 179px;
   left: 1px;
-  transform: rotate(115deg)
-  
+  transform: rotate(115deg);
+}
+.header__list-item:first-child {
+  border: none;
+}
+.market-service {
+  display: flex;
 }
