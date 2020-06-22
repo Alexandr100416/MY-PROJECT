@@ -8,29 +8,25 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="allheader">
-          <div class="logoElement">
-            <div class="logo">
+      <div class="slideshow-container">
+        <div class="container">
+          <div class="logo-information">
+            <div class="logo-text-information">
               <a class="logo-text" href="#">logo</a>
-            </div>
-            <div class="logo-information">
               <p class="logotext-info">
-                фабрика фотообоев в киеве<br />изготовление фотообоев
+                фабрика фотообоев в киеве изготовление фотообоев
               </p>
             </div>
-          </div>
-          <div class="callInfo">
-            <div class="number-info">
-              <p class="number">044 278 21 00</p>
-            </div>
-            <div type="button" class="click-button">
-              <button class="callback-button">Обратный звонок</button>
+            <div class="call-information">
+              <p class="call-number">044 278 2100</p>
+              <div type="button" class="click-button">
+                <button class="callback-button">Обратный звонок</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="navHover">
+      <div class="nav-decoration">
         <div class="container">
           <nav class="navigation">
             <ul class="header__list">
@@ -55,31 +51,33 @@
       </div>
     </header>
     <main class="main">
-      <div class="slideshow-container">
-        <h1 class="main-title">фотообои</h1>
-        <h2 class="text-information">более 6000 идей фотообоев<br/> для гостиной</h2>
-        <div class="button-watch">
-          <button class="button__watch-ideas">смотреть идеи</button>
-        </div>
-        
+      <section class="main-content-elements">
+        <div class="slideshow-container">
+          <h1 class="main-title">фотообои</h1>
+          <h2 class="text-information">
+            более 6000 идей фотообоев<br />
+            для гостиной
+          </h2>
+          <div class="button-watch">
+            <button class="button__watch-ideas">смотреть идеи</button>
+          </div>
           <div class="mySlides fade">
             <img
               src="./img-fonds/for-the-hall.png"
-              width="1900px"
-              height="800px"
+              width="2250px"
+              height="930px"
               alt="фотообои для зала"
             />
             <p class="main__list-item">
               <a class="main__list-link" href="#">Для зала</a>
-          </p>
+            </p>
             <p class="main-price__subtitle">от 50 $/м²</p>
           </div>
-
           <div class="mySlides fade">
             <img
-              src="./img-fonds/for-the-living-room.png"
-              width="1900px"
-              height="800px"
+              src="./img-fonds/for-the-living-room.jpg"
+              width="2250px"
+              height="930px"
               alt="фотообои для гостиной"
             />
             <p class="main__list-item">
@@ -87,12 +85,11 @@
             </p>
             <p class="main-price__subtitle">от 68 $/м²</p>
           </div>
-
           <div class="mySlides fade">
             <img
-              src="./img-fonds/for-kitchen.png"
-              width="1900px"
-              height="800px"
+              src="./img-fonds/for-kitchen.jpg"
+              width="2250px"
+              height="930px"
               alt="фотообои для кухни"
             />
             <p class="main__list-item">
@@ -102,9 +99,9 @@
           </div>
           <div class="mySlides fade">
             <img
-              src="./img-fonds/for-the-bedroom.png"
-              swidth="1900px"
-              height="800px"
+              src="./img-fonds/fotooboi-v-spalne-204.jpg"
+              width="2250px"
+              height="930px"
               alt="фотообои для спальни"
             />
             <p class="main__list-item">
@@ -112,16 +109,8 @@
             </p>
             <p class="main-price__subtitle">от 79 $/м²</p>
           </div>
-
-          <!-- Next and previous buttons -->
-          <div class="container">
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-        </div>
-
-        <!-- The dots/circles -->
-        <div class="container">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
           <div class="dotElements">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -129,8 +118,10 @@
             <span class="dot" onclick="currentSlide(4)"></span>
           </div>
         </div>
-    
-      <div class="container">
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="service-elements">
         <ul class="market-service">
           <li class="market-card">
             <img
@@ -184,8 +175,8 @@
             </p>
           </li>
         </ul>
-      </div>
-    </main>
+      </section>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
